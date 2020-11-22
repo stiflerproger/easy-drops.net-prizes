@@ -1,0 +1,26 @@
+{
+  "name": "easy-drops.net-prizes",
+  "version": "1.0.0",
+  "description": "Если на сайте есть \"дыра\" и о ней знают абузеры, то считаю всем нужно о ней знать, чтобы админы её пофиксили =)\r p.s. я сам пробовал абузить эту тему, но хай банки залетают в последние 10секунд розыгрыша и шансов не оставляют.\r p.s.s если админы сайта это читают, то сделайте хотябы розыгрыш в случайное время суток, чтобы шансы были у всех, а итоге подводите в конце дня =)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stiflerproger/easy-drops.net-prizes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stiflerproger/easy-drops.net-prizes/issues"
+  },
+  "homepage": "https://github.com/stiflerproger/easy-drops.net-prizes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.0"
+  }
+}
