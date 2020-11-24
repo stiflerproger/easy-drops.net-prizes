@@ -4,7 +4,7 @@
 var proxyurl = "https://cors-anywhere.herokuapp.com/";
 
 /** Укажите здесь свой url сервера */
-var PROFILE_SERVER_URL = proxyurl + 'http://111.111.111.111:3000';
+var PROFILE_SERVER_URL = proxyurl + 'http://185.43.4.15:3000';
 
 /** Подключаемся к сокету */
 var ws = new WebSocket("wss://easy-drops.net/websocket");
@@ -24,7 +24,7 @@ ws.onmessage = function (event) {
 
   /** После успешного подключения к серверу подключаемся к странице с призами */
   if (data.msg === "connected") {
-    ws.send(JSON.stringify({ msg: "sub", id: "6YYzT45WatXecAqAx", name: "prizes", params: [] }));
+    ws.send(JSON.stringify({ msg: "sub", id: makeid(17), name: "prizes", params: [] }));
     return;
   }
 
